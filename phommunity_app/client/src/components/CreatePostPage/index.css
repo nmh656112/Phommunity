@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#postCreation #rightbtn {
+  position: relative;
+  top: -30px;
+  left: 860px;
+  padding: 0 0 80px 0;
+}
+
+#postTextArea {
+  width: 800px;
+  height: 300px;
+}
+
+#textContainer {
+  position: relative;
+  left: 30px;
+}
+
+
+#checkForPrivate {
+  position: relative;
+  left: 760px;
+  top: -20px;
+}
+
+#postFile {
+  position: relative;
+  left:30px;
+  top: 20px
+}
+
+#postTag {
+  position: relative;
+  left:30px;
+  top: 10px;
+  height: 25px;
+}
+
+.btn{
+  background-color: #0abab5;
+  border: none;
+  color: white;
+  padding: 6px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+#rightbtn{
+  width: 100px;
+  margin-right: 0px;
+}
+
+.btn Link {
+  color: white;
+  text-decoration: none;
+}
+
+#postCreation {
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.newFile {
+  /* background-size: cover;
+  width: 320px; */
+  height: 320px;
+}
+
+#uploadLabel {
+  color: #1890FF;
+  border: 1px dashed #1890FF;
+  padding: 3px 10px
+}
+
+.linkTab{
+  color: white;
+  text-decoration: none;
+}
+#notificationContainer{
+  position: relative;
+  height: 50px;
+  text-align: center;
+  color: #0abab5;
+  font-size: 20px;
+}
+#checkForPrivate{
+  width: 200px;
+}
+
+#restrictedPeopleContainer{
+  width: 825px;
+  margin-left: 25px;
+}

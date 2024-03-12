@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.PhommunityIcon {
+  height: 40px;
+  width: 160px;
+  vertical-align: middle;
+}
+
+.ActivityFeedIcon {
+  height: 32px;
+  width: 32px;
+}
+
+.FollowSuggestionIcon {
+  height: 32px;
+  width: 32px;
+}
+
+.Header {
+  display:flex;
+  align-items:center;
+  padding:6px;
+  height: 60px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.PhommunityIcon {
+  display:inline-block;
+  padding:5px;
+  margin:0 5px;
+  margin-left: 15px;
+}
+
+.UserSearch {
+  display: flex !important;
+  -webkit-box-flex: 2 !important;
+  flex-grow: 2 !important;
+  flex-shrink: 1 !important;
+  width: 100% !important;
+  -webkit-box-align: center !important;
+  align-items: center !important;
+  -webkit-box-pack: center !important;
+  justify-content: center !important;
+}
+
+.UserSearchBar {
+  width: 60%;
+  height: 80%;
+}
+
+.OutmostHeaderRight {
+  display: flex !important;
+  flex-grow: 1;
+  -webkit-box-flex: 1 !important;
+  flex-grow: 1 !important;
+  flex-shrink: 2 !important;
+  width: 100% !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+  align-items: center !important;
+  -webkit-box-pack: end !important;
+  justify-content: flex-end !important;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+.HeaderExceptPhommunityIcon {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.HeaderRight {
+  min-width: auto;
+  position: relative;
+  display: block;
+}
+
+.HeaderMostRightPart {
+  min-width: auto;
+  position: relative;
+  transition: box-shadow 250ms;
+  display: block;
+  float: right;
+  white-space: nowrap;
+}
+
+.ActivityIconToLogoutIcon {
+  float: right;
+}
+
+.FollowAndActivity {
+  padding-right: 15px;
+}
+
+.TextIcon {
+  line-height: 30px;
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.ImgIcon {
+  background-size: 32px 32px;
+  border: 0;
+  border-radius: 50%;
+  margin: 0px;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  z-index: 0;
+  vertical-align: middle;
+  line-height: normal;
+  display: inline-block;
+  padding-left: 15px;
+}
+
+
+
+.SuggestedUser {
+  opacity: 1;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  /* width: 373px; */
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin: 36px 0 0 36px;
+  -webkit-user-drag: element;
+  user-select: none;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: var(--ic-brand-font-color-dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.HorizonalCenter {
+  text-align: center;
+}
+
+.user-avatar{
+  height: 100%;
+  width: 100%;
+}
+
+.user-avatar-container{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow:hidden;
+  float:left;
+  display: inline;
+}
+
+.user-info-container{
+  width: 60%;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: inline;
+  float: left;
+}
+
+.user-username-container{
+  height: 100%;
+  width: 30%;
+  padding-left: 10%;
+  padding-top: 5%;
+  font-size: 30px;
+  display: inline;
+  float: left;
+}
+
+.newPostButton{
+  padding-top: 20px;
+  display: inline;
+  float: right;
+}
+
+.personal-info-section{
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 10px;
+  height: 100px;
+}
+
+.personal-page-posts-container{
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 15%;
+  overflow: auto;
+}
+
+.single-post-container{
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline;
+  float:left;
+}
+
+.self_images{
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  vertical-align: middle;
+}

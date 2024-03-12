@@ -1,0 +1,32 @@
+.commentsList {
+    list-style-type: none;
+    overflow: auto;
+    width: 500px;
+    height: 600px;
+    border: 1px solid grey
+}
+
+.commentText {
+    width: 450px;
+    height: 100px;
+    border: 1px solid grey;
+    overflow: auto;
+    margin: 5px;
+}
+
+.userInfo a{
+    position: relative;
+    left: 40px;
+    top: -28px;
+}
+
+.comment-edit-delete-btn{
+    border-style: none;
+    background: white;
+}
+
+#commentCreation {
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }

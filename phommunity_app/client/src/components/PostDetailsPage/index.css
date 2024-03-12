@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.commentsList {
+  list-style-type: none;
+  overflow: auto;
+  width: 500px;
+  height: 600px;
+  border: 1px solid grey
+}
+
+.commentText {
+  width: 450px;
+  height: 100px;
+  border: 1px solid grey;
+  overflow: auto
+}
+
+.homeLinkTab {
+  color: black;
+  text-decoration: none;
+}
+
+.linkTab{
+  color: white;
+  text-decoration: none;
+}
+
+#postEditBtn{
+  margin-left: 225px;
+}
+
+#postContent01 {
+  border: 1px solid gray;
+  width: 360px;
+  height: 100px;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+
+.allComments{
+  position: relative;
+  left: 400px;
+  top: -660px;
+  margin-left: 40px;
+}
+
+#text02{
+  width: 540px;
+  height: 100px;
+}
+
+.btn{
+  background-color: #0abab5;
+  border: none;
+  color: white;
+  padding: 6px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.images{
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.userInfo a{
+  position: relative;
+  left: 40px;
+  top: -28px;
+}
+
+#btn01 {
+  position: relative;
+  top: -30px;
+  left: 900px;
+  padding: 0 0 20px 0;
+}
+
+.post-details-container{
+  margin-right: 15%;
+  height: 750px;
+}
+
+.outer-container{
+
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 750px;
+}

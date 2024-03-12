@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.currentAvartar{
+  background-size: cover;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+}
+
+.btn{
+  background-color: #0abab5;
+  border: none;
+  color: white;
+  padding: 6px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.linkTab{
+  color: white;
+  text-decoration: none;
+}
+
+
+#btn01 {
+  position: relative;
+  top: -20px;
+  left: 900px;
+  padding: 0 0 100px 0;
+  width: 50px;
+}
+
+#wholeAvatar {
+  position: relative;
+  left: 350px;
+  top: 50px;
+  width: 700px;
+}
+
+#circle01 {
+  width: 320px;
+	height: 320px;
+	border: 1px solid grey;
+	border-radius: 50%;
+}
+
+#label01 {
+  color:#1890FF;
+  border: 1px dashed #1890FF;
+  padding:3px 10px;
+  margin: 100px;
+}
+
+#avatarContainer{
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#avatarChangeNotificationContainer{
+  position: relative;
+  left:430px;
+  height: 50px;
+  color: #0abab5;
+  font-size: 20px;
+
+}
+
+
+

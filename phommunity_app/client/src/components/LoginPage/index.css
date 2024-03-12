@@ -1,0 +1,71 @@
+.welcomInfo_container{
+  margin: 20px 25%;
+  color: #0abab5;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Arial";
+  font-weight: bolder;
+
+}
+
+.panel_container{
+  margin: 20px 35%;
+  font-family: "Arial";
+  height: 500px;
+}
+
+.phommunity-wireframe-panel-body{
+  height: 320px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #0abab5;
+  margin:20px 20px;
+}
+
+
+.phommunity-wireframe-links{
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+
+.input-div{
+  height: 50px;
+  margin: 20px 20px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.simple_form{
+  margin: 25px 10px;
+  
+}
+
+.control-label{
+  margin-bottom: 100px;
+}
+
+.form-input{
+  height: 30px;
+  width: 95%;
+  font-size: 20px;
+}
+
+
+.phommunity-row{
+  text-align: center;
+}
+
+.button{
+  max-width: 100%;
+  width: 150px;
+  height: 50px;
+  background-color: #0abab5;
+  border-radius: 15%;
+  color: #fff;
+  border-color: #fff;
+}
+
+.phommunity-row{
+  text-align: center;
+}
+

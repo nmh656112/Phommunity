@@ -1,0 +1,61 @@
+
+.titlePhommunity{
+  height: auto;
+  float: left;
+  display: inline;
+}
+
+.loginAndSignUp-Body{
+  padding: 10px 25px;
+}
+.loginAndSignUp{
+  color: #0abab5;
+  height: auto;
+  float: right;
+  display: inline;
+}
+
+.slogan{
+  font-family: "Arial";
+  font-size: 70px;
+  font-weight: bolder;
+  color: #0abab5;
+  text-align: center;
+  padding: 250px 20px;
+}
+
+
+.mainView{
+  width: 100%;
+  display: table;
+}
+
+.sloganDiv{
+  height: 450px;
+  display: inline;
+  width: 50%;
+  float: left;
+}
+
+.image-top{
+  width: 600px;
+  height: 300px;
+  padding: 50px 100px;
+}
+
+
+.image-down{
+  width: 600px;
+  height: 300px;
+  padding: 70px 100px;
+}
+
+.homePageImageDiv{
+  display: inline;
+  width: 50%;
+  float: right;
+  
+}
+
+
+

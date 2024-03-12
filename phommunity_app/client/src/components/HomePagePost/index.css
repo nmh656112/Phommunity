@@ -1,0 +1,34 @@
+.rzpost {
+    width: 33%;
+    height: auto;
+    background-size: cover;
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .rzphoto {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+  }
+  
+  
+  .rzlike {
+    width: 33%;
+    height: auto;
+    background-size: cover;
+    display: flex;
+  }
+  
+  
+  
+
+  .rztext{
+    width: 200px;
+    height: 40px;
+    border: 1px solid grey;
+    overflow: auto;
+    word-wrap: break-word;
+  }

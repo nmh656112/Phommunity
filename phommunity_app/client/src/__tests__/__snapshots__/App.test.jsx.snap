@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage matches snapshot 1`] = `
+<div>
+  <div
+    className="homePageHeader"
+  >
+    <div
+      className="titlePhommunity"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="titleImg"
+          src={Object {}}
+        />
+      </a>
+    </div>
+    <br />
+    <br />
+    <hr
+      align="center"
+      color="#0abab5"
+    />
+  </div>
+  <div
+    id="login"
+  >
+    <div
+      className="welcomInfo_container"
+    >
+      <div
+        className="main-header-bar"
+      >
+        <div
+          className="phommunity-panel-header"
+        >
+          <div
+            className="phommunity-row"
+          >
+            <p>
+              Welcome To Phommunity!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="panel_container"
+    >
+      <div
+        className="panel"
+      >
+        <div
+          className="flash-messages"
+        >
+          <div
+            id="session_warning_container"
+          />
+        </div>
+        <div
+          className="phommunity-wireframe-panel-body"
+        >
+          <form
+            action="/"
+            className="simple_form form-vertical single-column-form"
+            id="sign_in"
+            method="post"
+          >
+            <input
+              name="authenticity_token"
+              type="hidden"
+            />
+            <div
+              className="form-group username optional username input-div"
+            >
+              <label
+                className="control-label username optional"
+                htmlFor="user_username"
+              >
+                Username
+                <abbr
+                  className="required disclaimer-basic"
+                >
+                  *
+                </abbr>
+                <br />
+                <input
+                  aria-label="username-input"
+                  className="form-control string username optional form-input"
+                  id="user_username"
+                  name="user[username]"
+                  onChange={[Function]}
+                  type="username"
+                  value=""
+                />
+              </label>
+              <div />
+            </div>
+            <div
+              className="form-group password optional user_password input-div"
+            >
+              <label
+                className="control-label password optional input-label"
+                htmlFor="user_username"
+              >
+                Password
+                <abbr
+                  className="required disclaimer-basic"
+                >
+                  *
+                </abbr>
+                <br />
+                <input
+                  className="form-control password optional form-input"
+                  data-testid="password-input"
+                  id="user_password"
+                  name="user[password]"
+                  onChange={[Function]}
+                  type="password"
+                  value=""
+                />
+              </label>
+              <div />
+            </div>
+            <div
+              className="phommunity-wireframe-links"
+            >
+              <a
+                href="/Registration"
+                onClick={[Function]}
+              >
+                Need an account? Join us Now!
+              </a>
+            </div>
+            <div
+              className="phommunity-row"
+            >
+              <button
+                className="button phommunity-button phommunity-button-primary"
+                id="submit_btn"
+                name="button"
+                onClick={[Function]}
+                type="submit"
+              >
+                Login
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PostDetailsPage matches snapshot 1`] = `
+<div>
+  <div />
+</div>
+`;
+
+exports[`Registration matches snapshot 1`] = `
+<div>
+  <div
+    className="homePageHeader"
+  >
+    <div
+      className="titlePhommunity"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="titleImg"
+          src={Object {}}
+        />
+      </a>
+    </div>
+    <br />
+    <br />
+    <hr
+      align="center"
+      color="#0abab5"
+    />
+  </div>
+  <div
+    className="welcomInfo_container"
+  >
+    <div
+      className="main-header-bar"
+    >
+      <div
+        className="phommunity-panel-header"
+      >
+        <div
+          className="phommunity-row"
+        >
+          <p>
+            Welcome To Phommunity!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="panel_container"
+  >
+    <div
+      className="panel"
+    >
+      <div
+        className="flash-messages"
+      >
+        <div
+          id="session_warning_container"
+        />
+      </div>
+      <div
+        className="phommunity-wireframe-panel-body"
+      >
+        <form
+          action="/"
+          className="simple_form form-vertical single-column-form"
+          id="sign_in"
+          method="post"
+        >
+          <input
+            name="authenticity_token"
+            type="hidden"
+          />
+          <div
+            className="form-group username optional username input-div"
+          >
+            <label
+              className="control-label username optional"
+              htmlFor="user_username"
+            >
+              Username
+              <abbr
+                className="required disclaimer-basic"
+              >
+                *
+              </abbr>
+              <br />
+              <input
+                className="form-control string username optional form-input"
+                data-testid="username-input"
+                id="user_username"
+                name="user[username]"
+                onChange={[Function]}
+                type="username"
+                value=""
+              />
+            </label>
+            <div />
+          </div>
+          <div
+            className="form-group email optional input-div"
+          >
+            <label
+              className="control-label email optional"
+              htmlFor="user_email"
+            >
+              Email
+              <abbr
+                className="required disclaimer-basic"
+              >
+                *
+              </abbr>
+              <br />
+              <input
+                className="form-control string email optional form-input"
+                data-testid="email-input"
+                id="user_email"
+                name="user[email]"
+                onChange={[Function]}
+                type="email"
+                value=""
+              />
+            </label>
+            <div />
+          </div>
+          <div
+            className="form-group password optional user_password input-div"
+          >
+            <label
+              className="control-label password optional input-label"
+              htmlFor="user_password"
+            >
+              Password
+              <abbr
+                className="required disclaimer-basic"
+              >
+                *
+              </abbr>
+              <br />
+              <input
+                className="form-control password optional form-input"
+                data-testid="password-input"
+                id="user_password"
+                name="user[password]"
+                onChange={[Function]}
+                type="password"
+                value=""
+              />
+            </label>
+            <div />
+          </div>
+          <div
+            className="PasswordRequirement-container"
+          >
+            <p>
+              Password needs to contain:
+               
+              <br />
+              1. At lease 8 characters
+               
+              <br />
+              2. Contains at least 1 Alphabet
+               
+              <br />
+              3. Contains at lease 1 Number
+            </p>
+          </div>
+          <div
+            className="phommunity-row"
+          >
+            <button
+              className="button phommunity-button phommunity-button-primary"
+              data-testid="submit-btn"
+              id="submit_btn"
+              name="button"
+              onClick={[Function]}
+              type="submit"
+            >
+              Sign Up
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

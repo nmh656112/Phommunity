@@ -1,0 +1,14 @@
+.images{
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.userInfo a{
+    position: relative;
+    left: 40px;
+    top: -28px;
+}
+  

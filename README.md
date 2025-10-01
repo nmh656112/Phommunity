@@ -2,13 +2,9 @@
 Photo&amp;Video-sharing Social Network APP
 ## Set up
 ### 1. Get the App
-Install project throught SVN using the web URL in terminal: <br/>
-**git clone https://github.com/cis557/project---design-hw1-rui_yuxin_minghui_group_27.git** <br/>
-or <br/>
-Install project throught using a password-protected SSH key in terminal: <br/>
-**git clone git@github.com:cis557/project---design-hw1-rui_yuxin_minghui_group_27.git** <br/>
+clone the repo
 ### 2. Install all needed packages
-Run following commands under src file (project---design-hw1-rui_yuxin_minghui_group_27/phommunity_app/src) in terminal: <br/>
+Run following commands under src file (phommunity_app/src) in terminal: <br/>
 ```
 npm install
 ```

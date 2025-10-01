@@ -65,17 +65,9 @@ Through clicking login or signup icon on top right, user can jump to login page 
 User can jump back to welcome page through clicking Phommunity icom on top left. <br/>
 
 ### User Login/Activity Feed/User Follow&Unfollow/User Profile Page
-Here are some demo account, user can log in to them to start demoing phommunity: <br/><br/>
-**user_name: yuxinhu**<br/>
-**password: 123dsdffe**<br/>
-<br/>
-**user_name: ruizhang**<br/>
-**password: few09234**<br/>
-<br/>
-**user_name: minghuini**<br/>
-**password: abc123456**<br/>
+I created several demo users for testing and demonstration
 
-After login of yuxinhu's account, homepage would display recommendation posts from the users followed by the current account, which is, indeed, the activity feed: <br/><br/>
+After login of a user's account, homepage would display recommendation posts from the users followed by the current account, which is, indeed, the activity feed: <br/><br/>
 <img width="1276" alt="image" src="https://user-images.githubusercontent.com/89489897/197075124-ac41f5ae-dfc0-4533-b601-588bf879dc2f.png">
 
 User can click other users' avatar or username and then jump into the profile page of other user. In this page, user could follow/unfollow this user: 
@@ -83,7 +75,7 @@ User can click other users' avatar or username and then jump into the profile pa
 
 <br/>
 
-In this case, if the demo user unfollowed the user ruizhang, ruizhang's post will not appear in the activity feed page, which is indeed the homepage<br/>
+In this case, if the demo user unfollowed another user, the followed post will not appear in the activity feed page, which is indeed the homepage<br/>
 
 ### Create Post/ Photo/Video upload
 User can alse click profile icon on top right and then jump into self profile page, and make new post through clicking new post button: <br/><br/><img width="1268" alt="image" src="https://user-images.githubusercontent.com/89489897/197075619-2860d374-493a-4c52-acd1-734388ca6eaf.png">
